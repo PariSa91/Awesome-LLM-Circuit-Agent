@@ -293,7 +293,10 @@ timeline
              : What Actually Runs on the Apple Neural Engine
              : LLMs in Digital EDA
     2026-09 : SpecLens
+             : AHRR
              : HLSFactory-Agent
+             : AgenticSizing
+             : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
 ```
@@ -424,6 +427,7 @@ flowchart TB
         david_vs_goliath["David vs. Goliath<br/><i>Agentic AI, Small Models</i>"]
         vflow["VFlow<br/><i>Agentic Workflow</i>"]
         a3d["A3D<br/><i>Accelerator Design, HLS, Multi-Agent</i>"]
+        ahrr["AHRR<br/><i>Agentic HLS with RTL Refinement</i>"]
         agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
         archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
         archagent_v2["ArchAgent v2<br/><i>Cascaded Evolution, Prefetching</i>"]
@@ -474,6 +478,7 @@ flowchart TB
         heart["HeaRT<br/><i>Reasoning, Optimization</i>"]
         toposizing["TopoSizing<br/><i>Topology-based</i>"]
         white_box_reasoning["White-Box Reasoning<br/><i>gm/Id, White-Box</i>"]
+        agentic_sizing["AgenticSizing<br/><i>Topology-Aware Multi-Agent Sizing</i>"]
         rfampdesigner["RFAmpDesigner<br/><i>RF Amplifier Sizing, Multi-Agent</i>"]
         self_calibrating_llm_based_analog_circui["Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design<br/><i>Analog Sizing, Self-Calibration</i>"]
         vlm_cad["VLM-CAD<br/><i>VLM, Collaborative Agent</i>"]
@@ -527,6 +532,7 @@ flowchart TB
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
         chipverilog["ChipVerilog<br/><i>Verilog Benchmark, OpenCores</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
+        grade_rtl["GRADE-RTL<br/><i>Implementation-Aware RTL Evaluation</i>"]
         gatetruth["GateTruth<br/><i>RTL Benchmark Audit, Mutation Testing</i>"]
         hls_eval_agentic["HLS-Eval Agentic<br/><i>Agentic HLS Evaluation</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
@@ -686,6 +692,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |
 | [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
 | [**LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow**](https://arxiv.org/abs/2608.30659) | arXiv | 2026.08 | - | Hierarchical IRs, End-to-End Hardware Development, Multi-Agent Debugging, RTL Verification |
 | [**Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators**](https://arxiv.org/abs/2608.30932) | arXiv | 2026.08 | - | Multi-Chiplet Accelerator, Hardware DSE, Report-Driven Multi-Agent, RAG Memory |
@@ -745,6 +752,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing**](https://arxiv.org/abs/2609.25873) | arXiv | 2026.09 | [GitHub](https://github.com/aprilaihub/agentic-analog-sizing) | Analog Sizing, Multi-Agent, Topology Understanding, Knowledge Reuse, Simulation-Driven Optimization |
 | [**RFAmpDesigner: A Self-Evolving Multi-Agent LLM Framework for Automated Radio Frequency Amplifier Design**](https://arxiv.org/abs/2605.10093) | arXiv | 2026.05 | - | RF Amplifier Sizing, Multi-Agent, RAG Memory, Automated Optimization |
 | [**Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design Equations**](https://arxiv.org/abs/2604.07387) | arXiv | 2026.04 | - | Analog Sizing, Self-Calibration, Interpretable Design Equations |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Bayesian Optimization |
@@ -791,6 +799,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**GRADE-RTL: Evaluating LLM-Generated RTL Beyond Compilation**](https://arxiv.org/abs/2609.25335) | arXiv | 2026.09 | [GitHub](https://github.com/hsc-research/GRADE-RTL) | RTL Evaluation, Functional Equivalence, Module Completeness, FPGA/ASIC QoR |
 | [**VeriBugBench: An Empirically Grounded Framework for Constructing Verilog RTL Debugging Benchmarks**](https://arxiv.org/abs/2609.18022) | arXiv | 2026.09 | [GitHub](https://github.com/wndif/VeriBugBench) | RTL Debugging Benchmark, Empirical Mutations, LLM Testbench Enhancement, Execution-Based Filtering |
 | [**Benchmarking Agentic HLS Design Tasks With HLS-Eval**](https://arxiv.org/abs/2609.09526) | Architecture 2.0 @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/HLS-Eval) | Agentic HLS Evaluation, Compiler Self-Verification, Trajectory Analysis |
 | [**GateTruth: Auditing the Rigor of RTL Design Benchmarks via Mutation Testing**](https://arxiv.org/abs/2608.12635) | arXiv | 2026.08 | - | RTL Benchmark Audit, Mutation Testing, Testbench Rigor, Correctness Gates |

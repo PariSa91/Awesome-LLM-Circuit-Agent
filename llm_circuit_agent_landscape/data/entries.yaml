@@ -1336,6 +1336,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "ahrr"
+  name: "AHRR"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic HLS with RTL Refinement"
+  venue: "ICCAD 2026"
+  method_tags: ["agentic_hls", "rtl_refinement", "fpga_evaluation", "higher_level_abstraction"]
+  url: "https://arxiv.org/abs/2609.21157"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "hlsfactory_agent"
   name: "HLSFactory-Agent"
   year: 2026
@@ -1896,6 +1910,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "agentic_sizing"
+  name: "AgenticSizing"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Sizing"
+  subcategory: "Topology-Aware Multi-Agent Sizing"
+  venue: "arXiv"
+  method_tags: ["analog_sizing", "multi_agent", "topology_understanding", "knowledge_reuse", "simulation_driven"]
+  url: "https://arxiv.org/abs/2609.25873"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "rfampdesigner"
   name: "RFAmpDesigner"
   year: 2026
@@ -2288,6 +2316,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "grade_rtl"
+  name: "GRADE-RTL"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Implementation-Aware RTL Evaluation"
+  venue: "arXiv"
+  method_tags: ["rtl_evaluation", "functional_equivalence", "module_completeness", "fpga_asic_qor"]
+  url: "https://arxiv.org/abs/2609.25335"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "veribugbench"
   name: "VeriBugBench"
   year: 2026
