@@ -299,6 +299,8 @@ timeline
              : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
+    2026-10 : VHDL-REPOBENCH
+             : Executable HLS Repair Benchmark
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -532,6 +534,7 @@ flowchart TB
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
         chipverilog["ChipVerilog<br/><i>Verilog Benchmark, OpenCores</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
+        hls_repair_benchmark["Executable HLS Repair Benchmark<br/><i>Executable HLS Repair Evaluation</i>"]
         grade_rtl["GRADE-RTL<br/><i>Implementation-Aware RTL Evaluation</i>"]
         gatetruth["GateTruth<br/><i>RTL Benchmark Audit, Mutation Testing</i>"]
         hls_eval_agentic["HLS-Eval Agentic<br/><i>Agentic HLS Evaluation</i>"]
@@ -541,6 +544,7 @@ flowchart TB
         ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
         synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
         veribench["VERIBENCH<br/><i>Formal Verification</i>"]
+        vhdl_repobench["VHDL-REPOBENCH<br/><i>Repository-Level VHDL Benchmark</i>"]
         vhdlsuite["VHDLSuite<br/><i>VHDL Benchmark, Data Synthesis</i>"]
         veribugbench["VeriBugBench<br/><i>Verilog RTL Debugging Benchmark</i>"]
         veriinteresting["VeriInteresting<br/><i>Empirical Study, Prompt Engineering</i>"]
@@ -799,6 +803,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VHDL-REPOBENCH: A Repository-Level Benchmark for Evaluating Large Language Models on VHDL Design Generation**](https://arxiv.org/abs/2610.05380) | IEEE LAD 2026 | 2026.10 | - | VHDL Benchmark, Repository-Level, Cross-File Reasoning, Functional Verification |
+| [**An Executable Benchmark for LLM-Based HLS Repair: Design Complexity and Repair Underconstraint**](https://arxiv.org/abs/2610.03971) | arXiv | 2026.10 | - | HLS Repair, Executable Benchmark, Functional Oracles, Repair Underconstraint |
 | [**GRADE-RTL: Evaluating LLM-Generated RTL Beyond Compilation**](https://arxiv.org/abs/2609.25335) | arXiv | 2026.09 | [GitHub](https://github.com/hsc-research/GRADE-RTL) | RTL Evaluation, Functional Equivalence, Module Completeness, FPGA/ASIC QoR |
 | [**VeriBugBench: An Empirically Grounded Framework for Constructing Verilog RTL Debugging Benchmarks**](https://arxiv.org/abs/2609.18022) | arXiv | 2026.09 | [GitHub](https://github.com/wndif/VeriBugBench) | RTL Debugging Benchmark, Empirical Mutations, LLM Testbench Enhancement, Execution-Based Filtering |
 | [**Benchmarking Agentic HLS Design Tasks With HLS-Eval**](https://arxiv.org/abs/2609.09526) | Architecture 2.0 @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/HLS-Eval) | Agentic HLS Evaluation, Compiler Self-Verification, Trajectory Analysis |

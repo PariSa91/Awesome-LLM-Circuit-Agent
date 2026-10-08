@@ -2316,6 +2316,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "vhdl_repobench"
+  name: "VHDL-REPOBENCH"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Repository-Level VHDL Benchmark"
+  venue: "IEEE LAD 2026"
+  method_tags: ["vhdl_benchmark", "repository_level", "cross_file_reasoning", "functional_verification"]
+  url: "https://arxiv.org/abs/2610.05380"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "hls_repair_benchmark"
+  name: "Executable HLS Repair Benchmark"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Executable HLS Repair Evaluation"
+  venue: "arXiv"
+  method_tags: ["hls_repair", "executable_benchmark", "functional_oracle", "repair_underconstraint"]
+  url: "https://arxiv.org/abs/2610.03971"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "grade_rtl"
   name: "GRADE-RTL"
   year: 2026
